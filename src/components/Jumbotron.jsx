@@ -27,7 +27,7 @@ function Jumbotron() {
                duration: 1,
                delay: 2,
              }}
-            className="text text-light">LANRE- ABASS AKEEM </motion.p>
+            className="text text-light">LANRE- ABASS AKEEM  AKINFOLARIN</motion.p>
             <span className="description">
                I develop sexy webpages 
                <br/>
