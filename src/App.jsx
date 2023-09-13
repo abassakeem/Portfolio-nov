@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Loader/> */}
+      <Loader/>
       <div ref={contentRef} id="content">
         <Nav />
         <Jumbotron/>

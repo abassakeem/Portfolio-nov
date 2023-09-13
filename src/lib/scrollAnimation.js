@@ -6,9 +6,9 @@ export const scrollAnimation = (position,target,isMobile,onUpdate) => {
  
  tl.to(position, {
  
-    x : !isMobile ? 3.88: -7.57,
-    y: !isMobile ? 6.69 : 0.3,
-    z: !isMobile ? 1.15: 1.57,
+    x : !isMobile ? 11.13: -7.57,
+    y: !isMobile ? 0.59 : 0.3,
+    z: !isMobile ? 0.35: 1.57,
 
     scrollTrigger:{
       trigger: ".sound-section",
@@ -21,9 +21,9 @@ export const scrollAnimation = (position,target,isMobile,onUpdate) => {
  })
  .to(target, {
 
-    x : !isMobile ? -11.5 : 1.0,
-    y: !isMobile ? -18: 0,
-    z: !isMobile ? 0: 0.7, 
+    x : !isMobile ? 5 : 1.0,
+    y: !isMobile ? 0: 0,
+    z: !isMobile ? 1: 0.7, 
     scrollTrigger: {
     trigger: ".sound-section",
     start: "top bottom",
@@ -59,9 +59,9 @@ export const scrollAnimation = (position,target,isMobile,onUpdate) => {
  })
  .to(position, {
  
-  x : !isMobile ? -10.94: 9.36,
-  y: !isMobile ? 0.28: 10.95,
-  z: !isMobile ? -14.41: 0.09,
+  x : !isMobile ? -10.94: -35.84,
+  y: !isMobile ? 0.28: 6.72,
+  z: !isMobile ? -14.41: -24.48,
 
   scrollTrigger:{
     trigger: ".works-section",
@@ -74,9 +74,9 @@ onUpdate
 })
 .to(target, {
 
-  x : !isMobile ? -3.3: -1.62,
-  y: !isMobile ? 0: 0.02,
-  z: !isMobile ? 0.0: 0.06, 
+  x : !isMobile ? -3.3: -4.9,
+  y: !isMobile ? 1.5: 1.80,
+  z: !isMobile ? 0.0: 0.0, 
   scrollTrigger: {
   trigger: ".works-section",
   start: "top bottom",

@@ -1,5 +1,5 @@
 import React from "react";
-import AnimatedLogo from "./../assets/images/logo-animated.gif";
+import AnimatedLogo from "./../assets/images/Ooyn.gif";
  function Loader() {
     return ( 
         <div className="loader">

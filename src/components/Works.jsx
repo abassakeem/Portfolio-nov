@@ -21,19 +21,20 @@ function Works() {
   },
    {
     index:9,
-    title: "PastQuest",
+    title: "Apple 3d Website Clone",
     url: "https://appleabass.netlify.app",
-    image: "projects/pastquest.png",
+    image: "projects/apple.png",
     git: "https://github.com/apple-landing-page/PastQuest",
-    description: "I built a 3d apple website clone.",
+    description: "A meticulously crafted clone of Apple's  website. Leveraging advanced technologies such as 3D animation, React, WebGL, and Framer Motion, I meticulously replicated Apple's web presence with finesse and precision. .",
   },
+  
   {
-   index:2,
-    title: "Who Wants To be A Millionaire",
-    url: "https://whowantstobeamillionaireabass.netlify.app",
-    image: "projects/wwtbam.png",
-    git: "https://github.com/abassakeem/who-wants-to-be-a-millionaire",
-    description: "I designed and built a fully functional Who Wants to Be a Millionaire game clone using React, featuring authentic sound effects to enhance the user experience.",
+    index:4,
+    title: "My Portfolio",
+    url: "https://www.youtube.com/watch?v=zwNF1-lsia8",
+    image: "projects/portfolio.png",
+    git: "https://github.com/abassakeem/wuwaabassportfolio",
+    description: "I designed a portfolio website inspired by Wuwa Sensei, incorporating Three.js for 3D elements, animations, and Framer Motion to create an immersive and visually captivating experience.",
   },
  
   {
@@ -45,21 +46,22 @@ function Works() {
     description: "I developed a budget management application with an integrated pie chart, enabling users to calculate their budget and expenses easily. The intuitive visualization allows for a quick assessment of whether they are within or exceeding their budget.",
   },
   
-  {
-    index:4,
-    title: "My Portfolio",
-    url: "https://www.youtube.com/watch?v=zwNF1-lsia8",
-    image: "projects/portfolio.png",
-    git: "https://github.com/abassakeem/wuwaabassportfolio",
-    description: "I designed a portfolio website inspired by Wuwa Sensei, incorporating Three.js for 3D elements, animations, and Framer Motion to create an immersive and visually captivating experience.",
-  },
+  
   {
     index:5,
     title: "Hangman Game",
     url: "https://hangmanabass.netlify.app",
     image: "projects/hangman.png",
     git: "https://github.com/abassakeem/hangman",
-    description: "A Hangman game using React and TypeScript, combining dynamic React features with TypeScript's code robustness. ",
+    description: "My Hangman game project, where React and TypeScript seamlessly come together to create an interactive word-guessing game. Players guess letters to uncover a hidden word while enjoying the suspense of avoiding incorrect guesses. This project highlights my skills in React development and the robustness of TypeScript.",
+  },
+  {
+    index:8,
+    title: "Text to Speech Converter",
+    url: "https://text2speechabass.netlify.app",
+    image: "projects/texttospeech.png",
+    git: "https://github.com/abassakeem/text-to-speech",
+    description: "I created a text-to-speech tool by harnessing the React-Speech API. This tool empowers users to input text, select from a variety of voices, and then seamlessly convert it into spoken language.",
   },
   {
     index:6,
@@ -77,15 +79,16 @@ function Works() {
     git: "https://github.com/abassakeem/GuessTheNumber",
     description: "I developed a number guessing game where users have 5 attempts to guess a randomly generated number between 1 and 100. Success occurs if they guess correctly within the allotted tries, while failure results from an incorrect guess.",
   },
-  
   {
-    index:8,
-    title: "Text to Speech Converter",
-    url: "https://text2speechabass.netlify.app",
-    image: "projects/texttospeech.png",
-    git: "https://github.com/abassakeem/text-to-speech",
-    description: "I designed a text-to-speech converter using the React-Speech API, allowing users to input text, choose from available voices, and convert it into speech output.",
-  },
+    index:2,
+     title: "Who Wants To be A Millionaire",
+     url: "https://whowantstobeamillionaireabass.netlify.app",
+     image: "projects/wwtbam.png",
+     git: "https://github.com/abassakeem/who-wants-to-be-a-millionaire",
+     description: "I designed and built a fully functional Who Wants to Be a Millionaire game clone using React, featuring authentic sound effects to enhance the user experience.",
+   },
+  
+ 
 ];
 const [currentProject, setCurrentProject] = useState(0);
 
@@ -150,13 +153,13 @@ const [position, setPosition] = useState(0);
             
           <div className="card-container" >
             <li key={project.index} className=" projectcards projectcard-1 justify-content-center align-items-center">
-              <a href="#"> <img src={project.image} /> </a>
+              <a href={project.url}> <img src={project.image} /> </a>
                 <h6 className="header">{project.title}</h6>
                 <p className="project-description">{project.description}</p>
                
-             </li> <div className="git-view">
-                    <a href="#" target="_blank"><AiFillGithub/></a>
-                    <a href="#" target="_blank"><AiFillEye/></a>
+             </li> <div className="git-view social-icon">
+                    <a href={project.git} target="_blank"><AiFillGithub/></a>
+                    <a href={project.url} target="_blank"><AiFillEye/></a>
                 </div> </div> 
                
                </Carousel.Item>
