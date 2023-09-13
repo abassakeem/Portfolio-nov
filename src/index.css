@@ -360,13 +360,13 @@ nav .link-styled {
   width: 100%;
   text-align: center;
   color: #1d1d1f;
-  z-index: 1;
+  /* z-index: 1; */
   background-color: #fbfbfd;
   height: 100vh;
 }
 .about-description{
   font-weight: 600;
-  z-index: 1;
+  /* z-index: 1; */
 }
 .about-header{
   min-width:max-content;
@@ -374,11 +374,11 @@ nav .link-styled {
 .unordered{
   margin-top: 20px;
   list-style-type: none;
-  z-index: 1;
+  /* z-index: 1; */
 }
 .unordered small{
 
-  z-index: 1;
+  /* z-index: 1; */
 }
 ul{
   list-style-type: none;
@@ -387,7 +387,7 @@ ul{
 .sound-section .body {
   max-width: 980px;
   margin: 0 auto; 
-  z-index: 1;
+  /* z-index: 1; */
   padding-top: 30px;
 }
 
@@ -398,7 +398,7 @@ ul{
   display: flex;
   align-items: center;
   flex-direction: column;
-  z-index: 1;
+  /* z-index: 1; */
   opacity: 0;
  
 }
@@ -424,7 +424,7 @@ ul{
 .sound-section .text {
   display: inline-block;
   color: transparent;
-  z-index: 1;
+  /* z-index: 1; */
   background-image: linear-gradient(
     90deg,
     #1e3791 0%,
@@ -440,13 +440,13 @@ ul{
   font-size: 48px;
   font-weight: 600;
   margin-bottom: 18px;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .sound-section .description {
   font-size: 19px;
   font-weight: 300;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .sound-section .links {
@@ -458,7 +458,7 @@ ul{
   margin-right: 0;
   padding-left: 0;
   list-style: none;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .sound-section .button {
@@ -626,7 +626,7 @@ ul{
   width: 100%;
   height: 100%;
   object-fit: cover; 
-  z-index: 1;
+  /* z-index: 1; */
   transform: rotateX(30deg) scale(1.5); 
   transform-origin: center bottom;
   box-shadow: 0 10px 20px rgba(255, 255, 255, 1); 
@@ -634,14 +634,14 @@ ul{
 .cards .projectcards img{
   height: 150px;
   width: 300px;
-  z-index: 1;
+  /* z-index: 1; */
 
 }
 
 .cards .projectcards .project-description{
   font-size: 10px;
   padding: 0 3px;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
  .git-view{
