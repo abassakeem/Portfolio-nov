@@ -38,7 +38,7 @@ function AboutSection() {
                        <div className="top d-flex flex-col align-items-center justify-content-center gap-5">
                         <p className="text about-header">About Me</p>
                         <div className="hmm ">
-                        <div className="stage-cube-cont ">
+                        {/* <div className="stage-cube-cont ">
       <div className="cubespinner ">
                             <div className="face face1  ">
                             <FontAwesomeIcon icon={faReact} color="#61dafb" />
@@ -59,7 +59,7 @@ function AboutSection() {
                             <FontAwesomeIcon icon={faGitAlt} color="#171515 " />
                             </div>
                         </div>
-                        </div>
+                        </div> */}
       </div></div>
                         <motion.span className="about-description "
                         initial={{
