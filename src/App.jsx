@@ -30,7 +30,7 @@ function App() {
         <DisplaySection  triggerPreview={handlePreview} />
         
       </div>
-     {/* <WebgiViewer contentRef={contentRef}  ref={webgiViewerRef}/> */}
+     <WebgiViewer contentRef={contentRef}  ref={webgiViewerRef}/>
     </div>
   );
 }
